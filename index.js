@@ -1,6 +1,6 @@
 const net = require('net')
 const sv = require('./lib/service')
-const LOCAL_PORT  = 6512
+const LOCAL_PORT  = 3000
 
 const server = net.createServer(socket => {
     socket.on('data', sv.handle.bind(socket))
