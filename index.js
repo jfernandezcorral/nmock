@@ -1,10 +1,8 @@
-const net = require('net')
 const sv = require('./lib/service')
 const LOCAL_PORT  = 3000
 
-const server = net.createServer(socket => {
-    socket.on('data', sv.handle.bind(socket))
-});
- 
-server.listen(LOCAL_PORT)
-console.log("Aceptando conexiones en puerto: " + LOCAL_PORT)
+const server = sv.server(LOCAL_PORT,
+    [
+        {path: '/api', host:"iob.ms.epd.bankia.int", port: 41180}
+    ]
+)
