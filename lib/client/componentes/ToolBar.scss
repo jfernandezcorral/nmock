@@ -2,6 +2,9 @@
     border-radius: 2px;
     border: 1px solid #dbdbdb;
     display: flex;
+    > div {
+        flex-grow: 1;
+    }
     > .boton{
         cursor: default;
         user-select: none;
@@ -9,5 +12,21 @@
         &:hover{
             background-color: rgb(102, 101, 101);
         }
+        &.disabled{
+            background-color: inherit;
+            color: rgb(116, 116, 116);
+        }
     }
+    > .status{
+        cursor: default;
+        user-select: none;
+        padding: .4em .6em;
+        &.iniciado{
+            background-color: rgb(102, 102, 10);
+        }
+        &.parado{
+            background-color: #9D425E;
+        }
+    }
+
 }
