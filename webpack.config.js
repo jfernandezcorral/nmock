@@ -17,6 +17,9 @@ let config = {
       //cmp: path.resolve(__dirname,'./client/componentes')
     }
   },
+  externals: {
+    electron: "require('electron')"
+  },
   devtool: 'source-map',
   module: {
     rules: [

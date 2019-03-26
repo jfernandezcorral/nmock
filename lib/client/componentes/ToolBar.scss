@@ -1,0 +1,13 @@
+.bar{
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    > .boton{
+        cursor: default;
+        user-select: none;
+        padding: .4em .6em;
+        &:hover{
+            background-color: rgb(102, 101, 101);
+        }
+    }
+}

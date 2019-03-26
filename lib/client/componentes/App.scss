@@ -1,11 +1,9 @@
 .app{
     height: 100%;
-    border-radius: 5px;
     font: 14px verdana; 
     display: flex;
     flex-direction: column;
     .toolBar{
-        border-radius: 2px;
         background-color: #333333;
         color: #C0C0C0;
         flex-shrink: 0;
