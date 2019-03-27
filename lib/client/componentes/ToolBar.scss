@@ -1,7 +1,12 @@
 .bar{
     border-radius: 2px;
     border: 1px solid #dbdbdb;
+    border-bottom-width: 0;
+    border-left-width: 0;
     display: flex;
+    *:first-child{
+        margin-left: 3em;
+    }
     > div {
         flex-grow: 1;
     }

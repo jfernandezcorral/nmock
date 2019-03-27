@@ -14,7 +14,7 @@ let config = {
   resolve: {
     extensions: ['.js', '.jsx', '.css', '.scss'],
     alias: {
-      //cmp: path.resolve(__dirname,'./client/componentes')
+      img: path.resolve(__dirname,'./lib/client/img')
     }
   },
   externals: {

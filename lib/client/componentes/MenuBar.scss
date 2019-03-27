@@ -1,0 +1,39 @@
+.menuBar{
+    flex-shrink: 0;
+    background-color: #303030;
+    color: #C0C0C0;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    .espacio{
+        flex-grow: 1;
+    }
+    .ico{
+        border-radius: 3px;
+        flex-shrink: 0;
+        padding: 2em 0 0 2em;
+        background-image: url('~img/log.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 85%;
+        cursor: pointer;
+        margin-bottom: 1em;
+        transition: opacity, background-color 0.3s ease;
+        &:hover{
+            background-color: #505050;
+        }
+        &.logs{
+            background-image: url('~img/log.svg');
+        }
+        &.consola{
+            background-image: url('~img/consola.svg');
+        }
+        &.engine{
+            background-image: url('~img/engine.svg');
+        }
+        &.sel{
+            border: 1px solid #a0a0a0;
+            background-color: #4627b4;
+        }
+    }
+}
