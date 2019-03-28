@@ -7,6 +7,9 @@
     *:first-child{
         margin-left: 3em;
     }
+    *:last-child{
+        margin-right: 3em;
+    }
     > div {
         flex-grow: 1;
     }
@@ -27,7 +30,7 @@
         user-select: none;
         padding: .4em .6em;
         &.iniciado{
-            background-color: rgb(102, 102, 10);
+            background-color: rgb(5, 102, 42);
         }
         &.parado{
             background-color: #9D425E;
