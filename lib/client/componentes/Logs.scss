@@ -3,18 +3,17 @@
     .registro{
         padding: .1em;
         border-bottom: 1px solid #404040;
-        color: silver;
         &.nuevo{
-            background-color: #0b0631;
+            color: #747dfa;
         }
         &.mock{
-            background-color: #042013;
+            color: #34ee97;
         }
         &.concurrente{
-            background-color: #262703;
+            color: #e9d45e;
         }
         &.timeout{
-            background-color: #250404;
+            color: #f56262;
         }
     }
     
