@@ -1,4 +1,7 @@
 .editor{
+    &.error{
+        background-color: #4d0a0a;
+    }
     background-color: #303030;
     color: rgb(130, 184, 37);
     width: 100%;
