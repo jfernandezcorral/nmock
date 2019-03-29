@@ -1,4 +1,7 @@
 .logs{
+    &.noVisible{
+        display: none;
+    }
     overflow: auto;
     .registro{
         padding: .1em;
