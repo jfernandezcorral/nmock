@@ -1,3 +1,33 @@
 .config{
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
+    textarea{
+        flex-grow: 1;
+    }
+    .botones{
+        flex-shrink: 0;
+        padding: 1em 2em;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        color: #f0f0f0;
+        .boton{
+            border-radius: 2px;
+            border: 1px solid #8f8a8a;
+            cursor: default;
+            user-select: none;
+            padding: .4em .6em;
+            &:hover{
+                background-color: rgb(102, 101, 101);
+            }
+            &.disabled{
+                background-color: inherit;
+                color: rgb(116, 116, 116);
+            }
+        }
+        .error{
+            color: red;
+        }
+    }
 }

@@ -3,14 +3,14 @@
         background-color: #4d0a0a;
     }
     background-color: #303030;
-    color: rgb(130, 184, 37);
+    color: rgb(154, 207, 63);
     width: 100%;
-    height: 100%;
+    height: 2px;
     resize: none;
     outline: none;
     border: 0;
     &::selection {
-        color: inherit;
-        background: rgb(185, 185, 176);
+        color: #4d0a0a;
+        background: rgb(236, 236, 229);
     }
 }
