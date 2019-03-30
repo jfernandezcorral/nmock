@@ -6,6 +6,7 @@
     .registro{
         padding: .1em;
         border-bottom: 1px solid #404040;
+        cursor: default;
         &.nuevo{
             color: #747dfa;
         }
@@ -23,4 +24,13 @@
         }
     }
     
+}
+.caption{
+    padding: 1em;
+    word-break: break-all;
+    margin: 1em;
+    background-color: #303030;
+    color: #747dfa;
+    border: 1px solid #747dfa;
+    border-radius: 3px; 
 }
