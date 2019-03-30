@@ -26,6 +26,7 @@
         }
     }
     > .status{
+        border-radius: 2px;
         cursor: default;
         user-select: none;
         padding: .4em .6em;
@@ -39,5 +40,18 @@
             background-color: rgb(42, 62, 151);
         }
     }
-
+    select{
+        outline: none;
+        line-height: 1.2;
+        font: inherit;
+        background-color: inherit;
+        color: inherit;
+        padding: .1em 3em .1em .1em;
+        margin-left: 2em;
+        border: 1px solid #454545;
+        border-radius: 3px;
+        option{
+            background-color: #303030;
+        }
+    }
 }
