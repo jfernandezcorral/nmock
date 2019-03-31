@@ -17,7 +17,7 @@
         background-color: #303030;
         animation: tr .7s ease-in-out;
         opacity: .8;
-        /*transition: opacity .3s ease-in-out;*/
+        transition: opacity .3s ease-in-out;
     }
     .pop{
         display: flex;
@@ -31,7 +31,7 @@
         height: 85%;
         animation: pop .7s;
         animation-timing-function: cubic-bezier(.71, .55, .62, 1.57);
-        //transition: transform .3s ease-in-out;
+        transition: transform .3s ease-in-out;
         .head{
             position: relative;
             flex-shrink: 0;
