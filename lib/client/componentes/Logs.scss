@@ -6,7 +6,11 @@
     .registro{
         padding: .1em;
         border-bottom: 1px solid #404040;
-        cursor: default;
+        cursor: pointer;
+        transition: background-color .3s ease;
+        &:hover{
+            background-color: #505050;
+        }
         &.nuevo{
             color: #747dfa;
         }
