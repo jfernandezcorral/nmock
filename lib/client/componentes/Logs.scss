@@ -26,6 +26,20 @@
         &.pending{
             color: #d4caca;
         }
+        &.warning{
+            &::before{
+                content: '';
+                display: inline-block;
+                margin: 0 .5em;
+                border-radius: 2px;
+                padding: .6em 0 0 .6em;
+                background-image: url('~img/aspa.svg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 85%;
+                background-color: yellow;
+            }
+        }
     }
     
 }
